@@ -1,0 +1,35 @@
+{
+  "extension": {
+	  "name": "Show Remote Access VPN Statistics",
+	  "version": "0.3",
+	  "description": "A SmartConsole Extension to show VPN User Statistics in a separate tab",
+	  "author": "Danny Jung",
+	  "email": "cp@dannyjung.de",
+	  "product-url": "https://community.checkpoint.com/t5/SmartConsole-Extensions/SmartConsole-Extension-Remote-Access-VPN-Statistics/m-p/81579",
+	  "provider": "dannyjung.de",
+	  "license": "GPL",
+	  "extension-version-requirements": {
+		  "minimum-version": "1.2"
+    }
+  },
+  "locations": [
+    {
+		"location": "details-pane",
+		"relevant-types": ["gateways"],
+		"ui-element": {
+			"type": "tab",
+			"caption": "VPN User Stats",
+			"tooltip": "Display VPN User Statistics",
+			"action": {
+				"details-level": "full",
+				"method": "get",
+				"trigger-id": "gateways-details-pane",
+				"url": "vpnstat.htm"
+        }
+      }
+    }
+  ],
+	"requested-permissions": {
+		"client": ["get-read-only-session", "run-read-only-commands"]
+  }
+}
