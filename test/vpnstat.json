@@ -5,8 +5,8 @@
 	  "description": "A SmartConsole Extension separate tab",
 	  "author": "Nikita Durov ",
 	  "email": "ndurov@gmail.com",
-	  "product-url": "https://github.com/ndurov/CP-SmartExtension",
-	  "provider": "github.com",
+	  "product-url": "https://raw.githubusercontent.com/ndurov/CP-SmartExtension",
+	  "provider": "raw.githubusercontent.com",
 	  "license": "GPL",
 	  "extension-version-requirements": {
 		  "minimum-version": "1.2"
