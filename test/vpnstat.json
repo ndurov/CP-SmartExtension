@@ -1,9 +1,9 @@
 {
   "extension": {
-	  "name": "Show Remote Access VPN Statistics",
-	  "version": "0.3",
-	  "description": "A SmartConsole Extension to show VPN User Statistics in a separate tab",
-	  "author": "Danny Jung",
+	  "name": "Show Console",
+	  "version": "0.2",
+	  "description": "A SmartConsole Extension separate tab",
+	  "author": "Nikita Durov ",
 	  "email": "ndurov@gmail.com",
 	  "product-url": "https://github.com/ndurov/CP-SmartExtension",
 	  "provider": "github.com",
