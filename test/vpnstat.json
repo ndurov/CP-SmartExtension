@@ -4,9 +4,9 @@
 	  "version": "0.3",
 	  "description": "A SmartConsole Extension to show VPN User Statistics in a separate tab",
 	  "author": "Danny Jung",
-	  "email": "cp@dannyjung.de",
-	  "product-url": "https://community.checkpoint.com/t5/SmartConsole-Extensions/SmartConsole-Extension-Remote-Access-VPN-Statistics/m-p/81579",
-	  "provider": "dannyjung.de",
+	  "email": "ndurov@gmail.com",
+	  "product-url": "https://github.com/ndurov/CP-SmartExtension",
+	  "provider": "github.com",
 	  "license": "GPL",
 	  "extension-version-requirements": {
 		  "minimum-version": "1.2"
